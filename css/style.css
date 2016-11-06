@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'roboto_bold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-bold-webfont.woff') format('woff'),
+    url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: bold;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-light-webfont.woff') format('woff'),
+    url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/robotocondensed-bold-webfont.eot');
+    src: url('../fonts/robotocondensed-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/robotocondensed-bold-webfont.woff') format('woff'),
+    url('../fonts/robotocondensed-bold-webfont.ttf') format('truetype'),
+    url('../fonts/robotocondensed-bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: bold;
+    font-style: normal;}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, sub, sup, b, i, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, caption {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:101%;
+    vertical-align:baseline;
+    line-height:normal;}
+
+ol, ul {
+    list-style:none;}
+
+body {
+    font-family:'roboto';
+    width:100%;}
+
+.wrap {
+    width:1024px;
+    position:relative;
+    margin:0 auto;}
+
+a.blue_button {
+    display:inline-block;
+    background:url(../img/blue_button.png) 0px 0px no-repeat;
+    padding:8px 21px 10px 25px;
+    font-family:Calibri;
+    font-weight:bold;
+    font-size:12px;
+    color:#fff;
+    text-decoration:none;}
+
+a.red_button {
+    display:inline-block;
+    background:url(../img/red_button.png) 0px 0px no-repeat;
+    padding:8px 49px 10px 51px;
+    font-family:'roboto_bold';
+    font-size:20px;
+    color:#fff;
+    letter-spacing:-0.2px;
+    text-decoration:none;}
+a.red_button span {
+    display:block;
+    font-family:'roboto';
+    font-size:14px;
+    padding-left:10px;}
+
+.clear {
+    width:100%;
+    height:0px;
+    clear:both;}
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    width:100%;
+    height:190px;}
+
+.header a.logo {
+    display:block;
+    float:left;
+    margin:33px 0 0 13px;}
+
+.header .slogan {
+    float:left;
+    width:620px;}
+.header .slogan p {
+    color:#2b2b2b;}
+.header .slogan p.top_item {
+    font-family:'roboto_condensed';
+    font-size:44px;
+    padding:45px 0 0 18px;
+    letter-spacing:-0.4px;}
+.header .slogan p.bot_item {
+    font-family:'roboto';
+    font-size:23px;
+    padding:1px 0 0 19px;}
+.header .slogan p.bot_item span{
+    color:#f34243;}
+
+.header .login {
+    float:right;
+    width:210px;
+    padding-top:76px;}
+.header .login a.blue_button {
+    float:left;
+    margin:0 5px 0 0;}
+.header .login a.blue_button.small {
+    padding:8px 21px 10px;
+    background-position:0px -32px;}
+
+/* Box 1
+-----------------------------------------------------------------------------*/
+.box_1 {
+    width:100%;
+    height:525px;
+    background:url(../img/planshet.jpg) 4px 0px no-repeat;
+    clear:both;
+    border-bottom:2px solid #e8e8e8;}
+
+.box_1 .text_unit {
+    width:342px;
+    height:488px;
+    float:right;
+    margin:0 0px 0 0px;
+    background:url(../img/form_bg.png) 0 -1px repeat-x;
+    border:1px solid #f0f0f0;}
+.box_1 .text_unit p.title {
+    width:300px;
+    margin:42px 0 0 12px;
+    font-family:'roboto_bold';
+    font-size:35px;
+    letter-spacing: -0.6px;
+    line-height:35px;
+    text-align:center;}
+.box_1 .text_unit p.body {
+    width:300px;
+    margin:43px 0 0 26px;
+    font-family:'roboto';
+    font-size:20px;
+    letter-spacing:0.3px;
+    line-height:27px;
+    text-align:center;}
+.box_1 .text_unit a.red_button {
+    margin:62px 0 44px 9px;}
+
+/* Box 2
+-----------------------------------------------------------------------------*/
+.box_2 {
+    width:100%;
+    padding-bottom:26px;
+    border-bottom:2px solid #e8e8e8;
+    clear:both;}
+
+.box_2 p.title {
+    width:100%;
+    font-family:'roboto_bold';
+    font-size:35px;
+    letter-spacing: -0.4px;
+    text-align:center;
+    padding:22px 0 22px 0;}
+
+.box_2 .unit {
+    width:100%;
+    height:142px;
+    position:relative;}
+.box_2 .unit img {
+    width:135px;
+    height:135px;
+    position:relative;
+    z-index:2;}
+
+.box_2 .unit.unit_1 img,
+.box_2 .unit.unit_3 img {
+    float:left;
+    margin:0 0 0 49px;}
+
+.box_2 .unit.unit_2 img {
+    float:right;
+    margin:0 43px 0 0;}
+
+.box_2 .unit .line_wrap {
+    background:url(../img/punktir.png) 0px 65px repeat-x;
+    position:relative;
+    min-height:100%;
+    margin:0 110px 0 117px;
+    z-index:1;}
+.box_2 .unit .line_wrap .arrow {
+    background:url(../img/arrow.png) 0px 0px no-repeat;
+    width:15px;
+    height:70px;
+    position:absolute;
+    bottom:4px;
+    right:-8px;}
+.box_2 .unit.unit_2 .line_wrap {
+    background-position:0px 63px;}
+.box_2 .unit.unit_2 .line_wrap .arrow {
+    left:-7px;
+    bottom:7px;}
+
+.box_2 .unit p {
+    width:345px;
+    background:#fff;
+    font-size:20px;
+    line-height:27px;
+    color:#2b2b2b;
+    letter-spacing:0.3px;
+    padding:32px 0 0 0px;}
+.box_2 .unit p span{
+    display:block;
+    font-size:15px;
+    color:#999;
+    letter-spacing:-0.1px;}
+
+.box_2 .unit.unit_1 p,
+.box_2 .unit.unit_3 p {
+    float:left;
+    padding:32px 10px 0 11px;}
+.box_2 .unit.unit_2 p {
+    float:right;
+    width:362px;
+    padding:32px 0 0 11px;}
+.box_2 .unit.unit_3 p {
+    width: 350px;
+    padding:35px 10px 0 11px;}
+
+/* Box 3
+-----------------------------------------------------------------------------*/
+.box_3 {
+    width:100%;
+    padding-bottom:40px;
+    border-bottom:2px solid #e8e8e8;
+    clear:both;}
+
+.box_3 .unit {
+    width:340px;
+    float:left;
+    margin:40px 0px 0 0px;}
+.box_3 .unit img {
+    width:160px;
+    height:160px;}
+.box_3 .unit.unit_1 img {
+    margin:0px 0 0 86px;}
+.box_3 .unit.unit_2 img {
+    margin:0px 0 0 88px;}
+.box_3 .unit.unit_3 img {
+    margin:0px 0 0 97px;}
+
+.box_3 .unit p.title {
+    font-family:'roboto_bold';
+    font-size:26px;
+    text-align:center;}
+.box_3 .unit.unit_1 p.title {
+    padding:21px 0 0 8px;}
+.box_3 .unit.unit_2 p.title {
+    padding:21px 0 0 0px;}
+.box_3 .unit.unit_3 p.title {
+    padding:21px 0 0 0px;}
+
+.box_3 .unit ul {
+    padding:31px 0 0 35px;}
+.box_3 .unit ul li {
+    font-family:'roboto';
+    font-size:20px;
+    line-height:26px;
+    margin-bottom:1px;}
+
+.box_3 .unit.unit_1 ul {
+    list-style-image:url(../img/bullet_red.png);}
+.box_3 .unit.unit_2 ul {
+    list-style-image:url(../img/bullet_orange.png);}
+.box_3 .unit.unit_3 ul {
+    list-style-image:url(../img/bullet_green.png);}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    width:100%;
+    clear:both;}
+
+.footer p.title {
+    width:100%;
+    font-family:'roboto';
+    font-size:26px;
+    text-align:center;
+    color:#2b2b2b;
+    padding:57px 0 16px 0;}
+.footer p.title span {
+    color:#f14648;}
+
+.footer a.red_button {
+    margin:0 0 0 349px;}
+
+.footer ul {
+    padding:83px 0 0 0;}
+.footer ul li {
+    float:left;
+    margin:6px 0px 0 22px;}
+.footer ul li a {
+    font-family:'roboto';
+    font-size:18px;
+    color:#2b2b2b;
+    text-decoration:none;}
+.footer ul li.logo {
+    margin:0 0 0 160px;}
+.footer ul li.logo img {
+    width:54px;}
+
+.footer p.copy {
+    width:100%;
+    clear:both;
+    font-size:15px;
+    color:#a0a0a0;
+    padding:38px 0;
+    text-align:center;}
+
+.question {
+    padding: 9px 15px;
+    border: 1px solid #e5e5e5;
+}
+.question span {
+    font-style: bold;
+}
+.answer  {
+    padding: 9px 15px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}

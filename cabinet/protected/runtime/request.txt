@@ -1,0 +1,24 @@
+* About to connect() to www.rostov-internet.ru port 80 (#0)
+*   Trying 81.177.135.213... * connected
+* Connected to www.rostov-internet.ru (81.177.135.213) port 80 (#0)
+> GET / HTTP/1.1
+User-Agent: Mozilla/4.0 (Windows; U; Windows NT 5.0; En; rv:1.8.0.2) Gecko/20070306 Firefox/1.0.0.4
+Host: www.rostov-internet.ru
+Accept: */*
+Referer: http://www.rostov-internet.ru/
+Connection: keep-alive
+Keep-Alive: 300
+
+< HTTP/1.1 200 OK
+< Server: nginx
+< Date: Fri, 18 Dec 2015 23:15:26 GMT
+< Content-Type: text/html
+< Content-Length: 16950
+< Connection: keep-alive
+< Last-Modified: Fri, 18 Dec 2015 23:15:23 GMT
+< ETag: "5120eaf-4236-52734505edebd"
+< Accept-Ranges: bytes
+< Vary: Accept-Encoding
+< 
+* Connection #0 to host www.rostov-internet.ru left intact
+* Closing connection #0

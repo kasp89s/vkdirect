@@ -1,0 +1,48 @@
+* About to connect() to minfin.com.ua port 80 (#0)
+*   Trying 193.193.194.103... * connected
+* Connected to minfin.com.ua (193.193.194.103) port 80 (#0)
+> GET /currency/auction/list/ HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36
+Host: minfin.com.ua
+Accept-Encoding: gzip, deflate, sdch
+Referer: http://minfin.com.ua/currency/auction/list/
+Cookie: minfincomua_region=0; mf_r=1432737616.6113.98910; minfin_sessions=e124d3de1653bbb28a1297e186fe053575cb1c48
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Cache-Control: max-age=0
+Connection: keep-alive
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+< HTTP/1.1 200 OK
+< Server: nginx/1.6.2
+< Date: Tue, 04 Oct 2016 18:45:07 GMT
+< Content-Type: text/html; charset=UTF-8
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Vary: Accept-Encoding
+< X-Powered-By: PHP/5.6.12-0+deb8u1
+< Vary: Accept-Encoding
+< Pragma: no-cache
+* Replaced cookie minfin_sessions="e124d3de1653bbb28a1297e186fe053575cb1c48" for domain minfin.com.ua, path /, expire 0
+< Set-Cookie: minfin_sessions=e124d3de1653bbb28a1297e186fe053575cb1c48; path=/; domain=.minfin.com.ua; httponly
+< Cache-control: private
+< Expires: Thu, 01 Nov 2010 08:00:00 GMT
+* Replaced cookie mf_r="1432737616.6113.98910" for domain minfin.com.ua, path /, expire 1790966707
+< Set-Cookie: mf_r=1432737616.6113.98910; expires=Fri, 02-Oct-2026 18:45:07 GMT; Max-Age=315360000; path=/; domain=.minfin.com.ua
+* Replaced cookie minfincomua_region="0" for domain minfin.com.ua, path /, expire 1478198707
+< Set-Cookie: minfincomua_region=0; expires=Thu, 03-Nov-2016 18:45:07 GMT; Max-Age=2592000; path=/
+* Replaced cookie minfincomua_region="0" for domain minfin.com.ua, path /, expire 1478198707
+< Set-Cookie: minfincomua_region=0; expires=Thu, 03-Nov-2016 18:45:07 GMT; Max-Age=2592000; path=/
+* Replaced cookie CashSession="deleted" for domain minfin.com.ua, path /, expire 1475606707
+< Set-Cookie: CashSession=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+* Replaced cookie mf_r="1432737616.6113.98910" for domain minfin.com.ua, path /, expire 1790966707
+< Set-Cookie: mf_r=1432737616.6113.98910; expires=Fri, 02-Oct-2026 18:45:07 GMT; Max-Age=315360000; path=/; domain=.minfin.com.ua
+* Replaced cookie mf_r="1432737616.6113.98910" for domain minfin.com.ua, path /, expire 1790966707
+< Set-Cookie: mf_r=1432737616.6113.98910; expires=Fri, 02-Oct-2026 18:45:07 GMT; Max-Age=315360000; path=/; domain=.minfin.com.ua
+< X-Profile-Whole-Script: 0.060154914855957
+< X-Whole-Cat-Niceness: 5767168
+< X-Nice-Cat-Price: 539506
+< Content-Encoding: gzip
+< 
+* Connection #0 to host minfin.com.ua left intact
+* Closing connection #0

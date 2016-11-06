@@ -1,0 +1,17 @@
+array (
+  'ik_co_id' => '54212588bf4efc854b2f1ac4',
+  'ik_co_prs_id' => '207934486826',
+  'ik_inv_id' => '30657091',
+  'ik_inv_st' => 'success',
+  'ik_inv_crt' => '2014-10-13 14:41:45',
+  'ik_inv_prc' => '2014-10-13 14:42:20',
+  'ik_trn_id' => '2536831',
+  'ik_pm_no' => '44',
+  'ik_desc' => 'Пополнение баланса на сайте http://redirekt.center/cabinet на сумму 2$',
+  'ik_pw_via' => 'webmoney_webmoney_merchant_wmz',
+  'ik_am' => '2.00',
+  'ik_cur' => 'USD',
+  'ik_co_rfn' => '2.0000',
+  'ik_ps_price' => '2.06',
+  'ik_sign' => 'VteNz/q3KcFjXYQrhG8b4g==',
+)

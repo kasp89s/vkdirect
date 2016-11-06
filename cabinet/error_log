@@ -1,0 +1,39 @@
+[18-Oct-2014 15:07:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/redirekt/public_html/cabinet/protected/views/default/balance.php on line 135
+[18-Oct-2014 15:08:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/redirekt/public_html/cabinet/protected/views/default/balance.php on line 135
+[18-Oct-2014 15:08:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/redirekt/public_html/cabinet/protected/views/default/balance.php on line 135
+[18-Oct-2014 16:21:00 UTC] PHP Fatal error:  Call to undefined function vardump() in /home/redirekt/public_html/cabinet/protected/controllers/DefaultController.php on line 332
+[18-Oct-2014 16:21:27 UTC] PHP Fatal error:  Call to undefined function printr() in /home/redirekt/public_html/cabinet/protected/controllers/DefaultController.php on line 332
+[18-Oct-2014 16:22:34 UTC] PHP Fatal error:  Call to undefined function vardump() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 285
+[18-Oct-2014 17:19:53 UTC] PHP Notice:  Undefined index: LMI_PAYMENT_AMOUNT in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 250
+[18-Oct-2014 17:21:51 UTC] PHP Notice:  Undefined index: LMI_PAYMENT_AMOUNT in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 239
+[18-Oct-2014 17:21:51 UTC] PHP Notice:  Undefined index: LMI_PAYMENT_NO in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 240
+[18-Oct-2014 17:21:51 UTC] PHP Warning:  Creating default object from empty value in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 244
+[18-Oct-2014 17:21:51 UTC] PHP Fatal error:  Call to undefined method stdClass::save() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 245
+[18-Oct-2014 17:22:16 UTC] PHP Notice:  Undefined index: LMI_PAYMENT_AMOUNT in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 239
+[18-Oct-2014 17:22:16 UTC] PHP Notice:  Undefined index: LMI_PAYMENT_NO in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 240
+[18-Oct-2014 17:22:16 UTC] PHP Warning:  Creating default object from empty value in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 244
+[18-Oct-2014 17:22:16 UTC] PHP Fatal error:  Call to undefined method stdClass::save() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 245
+[18-Oct-2014 17:22:25 UTC] PHP Notice:  Undefined index: LMI_PAYMENT_AMOUNT in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 239
+[18-Oct-2014 17:22:25 UTC] PHP Notice:  Undefined index: LMI_PAYMENT_NO in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 240
+[18-Oct-2014 17:22:25 UTC] PHP Warning:  Creating default object from empty value in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 244
+[18-Oct-2014 17:22:25 UTC] PHP Fatal error:  Call to undefined method stdClass::save() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 245
+[18-Oct-2014 20:04:15 UTC] PHP Fatal error:  Using $this when not in object context in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 248
+[18-Oct-2014 20:32:31 UTC] PHP Fatal error:  Undefined class constant 'STATUS_SUCCESS' in /home/redirekt/public_html/cabinet/protected/controllers/DefaultController.php on line 331
+[19-Oct-2014 19:27:40 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/redirekt/public_html/cabinet/protected/views/default/balance.php on line 30
+[10-Nov-2014 10:42:41 UTC] PHP Fatal error:  Call to a member function save() on a non-object in /home/redirekt/public_html/cabinet/protected/controllers/AdminController.php on line 366
+[10-Dec-2014 17:45:49 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/redirekt/public_html/cabinet/index.php on line 15
+[10-Dec-2014 17:46:05 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/redirekt/public_html/cabinet/index.php on line 15
+[08-Jan-2015 21:13:24 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/redirekt/public_html/cabinet/protected/controllers/DefaultController.php on line 128
+[08-Jan-2015 21:13:57 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/redirekt/public_html/cabinet/protected/controllers/DefaultController.php on line 128
+[09-Jan-2015 01:24:21 UTC] PHP Fatal error:  Call to undefined function canculateReferalRefill() in /home/redirekt/public_html/cabinet/protected/models/User.php on line 205
+[09-Jan-2015 16:20:02 UTC] PHP Fatal error:  Call to undefined method User::payToMyReferrals() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 273
+[09-Jan-2015 18:11:10 UTC] PHP Fatal error:  Call to undefined method User::payToMyReferrals() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 273
+[09-Jan-2015 18:34:03 UTC] PHP Fatal error:  Call to undefined method User::payToMyReferrals() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 273
+[10-Jan-2015 14:17:21 UTC] PHP Fatal error:  Call to undefined method User::payToMyReferrals() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 273
+[10-Jan-2015 20:46:01 UTC] PHP Fatal error:  Call to undefined method User::payToMyReferrals() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 273
+[10-Jan-2015 20:47:27 UTC] PHP Fatal error:  Call to undefined method User::payToMyReferrals() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 273
+[10-Jan-2015 21:05:56 UTC] PHP Fatal error:  Call to undefined method User::payToMyReferrals() in /home/redirekt/public_html/cabinet/protected/models/Interkassa.php on line 273
+[10-Jan-2015 21:08:32 UTC] PHP Fatal error:  Call to undefined function canculateReferalRefill() in /home/redirekt/public_html/cabinet/protected/models/User.php on line 205
+[10-Jan-2015 21:12:22 UTC] PHP Fatal error:  Call to undefined function canculateReferalRefill() in /home/redirekt/public_html/cabinet/protected/models/User.php on line 205
+[04-Feb-2015 10:09:47 UTC] PHP Fatal error:  Call to undefined method User::checkMyFolder() in /home/redirekt/public_html/cabinet/protected/controllers/DefaultController.php on line 82
+[04-Feb-2015 10:10:27 UTC] PHP Fatal error:  Call to undefined method User::checkMyFolder() in /home/redirekt/public_html/cabinet/protected/controllers/DefaultController.php on line 82
